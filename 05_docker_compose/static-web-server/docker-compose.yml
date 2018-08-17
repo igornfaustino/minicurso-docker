@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  webserver: 
+    image: igornfaustino/static-web-server
+    volumes: 
+      - .:/site
+    ports:
+      - 80:80
